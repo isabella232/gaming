@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Azure Cloud Gaming</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-106092395-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav__logo">
+        <a href="#">
+          <h4>Azure Cloud Gaming</h4>
+        </a>
+      </div>
+      <div class="nav__toggle">
+        <button class="hamburger hamburger--squeeze js-hamburger" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+      <div class="nav__list">
+        <ul>
+          <li class="nav-item nav-item--home active">
+            <div class="link-shield link-shield--home"></div>
+            <a class="nav-link--home" href="#Home" disabled="disabled">
+              <div class="circle">
+                <div class="circle__inner"></div>
+              </div>
+              <div class="hover-state">
+                <img src="img/icon--nav--home.svg" alt="">
+                <p>Home</p>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item nav-item--develop">
+            <div class="link-shield link-shield--develop"></div>
+            <a class="nav-link--develop" href="#Develop" disabled="disabled">
+              <div class="circle">
+                <div class="circle__inner"></div>
+              </div>
+              <div class="hover-state">
+                <img src="img/icon--nav--render.svg" alt="">
+                <p>Develop</p>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item nav-item--launch">
+            <div class="link-shield link-shield--launch"></div>
+            <a class="nav-link--launch" href="#Launch" disabled="disabled">
+              <div class="circle">
+                <div class="circle__inner"></div>
+              </div>
+              <div class="hover-state">
+                <img src="img/icon--nav--reach.svg" alt="">
+                <p>Launch</p>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item nav-item--monetize">
+            <div class="link-shield link-shield--monetize"></div>
+            <a class="nav-link--monetize" href="#Monetize" disabled="disabled">
+              <div class="circle">
+                <div class="circle__inner"></div>
+              </div>
+              <div class="hover-state">
+                <img src="img/icon--nav--monetize.svg" alt="">
+                <p>Monetize</p>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item nav-item--resources">
+            <div class="link-shield link-shield--resources"></div>
+            <a class="nav-link--resources" href="#Resources" disabled="disabled">
+              <div class="circle">
+                <div class="circle__inner"></div>
+              </div>
+              <div class="hover-state">
+                <img src="img/icon--nav--resources.svg" alt="">
+                <p>Resources</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Content Wrapper  -->
+    <div class="wrapper">
+      <!-- Section = Home -->
+      <section class="section section--home" id="Home">
+        <div class="logo-container">
+          <a href="https://www.microsoft.com" target="_target">
+            <img src="img/logo--microsoft.svg" alt="">
+          </a>
+        </div>
+        <div class="bg-home">
+          <video class="bg-home__video" autoplay playsinline mute loop>
+            <source src="videos/Azure-Main_Infographic.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="hero-overlay"><div class="hero-overlay__inner"></div></div>
+        <div class="inner">
+          <div class="grid-container with-padding">
+            <div class="grid__item desktop-grid__item--10 tablet-grid__item--10 mobile-grid__item--10">
+              <div class="home-container">
+                <div class="home--header">
+                  <h1>Azure Cloud Gaming</h1>
+                </div>
+                <div class="home--body">
+                  <h2>Develop faster | Launch globally | Monetize intelligently</h2>
+                  <div class="start-scroll">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    	 viewBox="0 0 429.9 112.3" style="enable-background:new 0 0 429.9 112.3;" xml:space="preserve">
+                      <g>
+                      	<polygon class="st0" points="424,56.2 423.9,56.1 424,56.1 423.9,56.1 387.9,6.2 232,6.2 198,6.2 42,6.2 6,56.1 6,56.1 6,56.1
+                      		6,56.2 6,56.2 42,106.1 198,106.1 232,106.1 387.9,106.1 423.9,56.2 	"/>
+                      	<g>
+                      		<g>
+                      			<path class="st1" d="M115,65v-5c0.9,0.8,1.9,1.3,3,1.7c1.1,0.4,2.1,0.6,3.2,0.6c0.6,0,1.2-0.1,1.7-0.2c0.5-0.1,0.9-0.3,1.2-0.5
+                      				c0.3-0.2,0.6-0.4,0.7-0.7c0.2-0.3,0.2-0.6,0.2-0.9c0-0.4-0.1-0.8-0.4-1.2s-0.6-0.7-1-1c-0.4-0.3-0.9-0.6-1.5-0.8
+                      				c-0.6-0.3-1.2-0.5-1.9-0.8c-1.8-0.7-3.1-1.6-3.9-2.7c-0.9-1.1-1.3-2.3-1.3-3.8c0-1.2,0.2-2.2,0.7-3c0.5-0.8,1.1-1.5,1.9-2.1
+                      				c0.8-0.5,1.7-0.9,2.8-1.2c1.1-0.3,2.2-0.4,3.4-0.4c1.2,0,2.2,0.1,3.1,0.2c0.9,0.1,1.7,0.4,2.5,0.6v4.7c-0.4-0.3-0.8-0.5-1.2-0.7
+                      				c-0.4-0.2-0.9-0.4-1.4-0.5c-0.5-0.1-0.9-0.2-1.4-0.3c-0.5-0.1-0.9-0.1-1.3-0.1c-0.6,0-1.1,0.1-1.6,0.2s-0.9,0.3-1.2,0.5
+                      				c-0.3,0.2-0.6,0.4-0.8,0.7c-0.2,0.3-0.3,0.6-0.3,0.9c0,0.4,0.1,0.7,0.3,1c0.2,0.3,0.5,0.6,0.8,0.8c0.4,0.3,0.8,0.5,1.3,0.8
+                      				c0.5,0.3,1.1,0.5,1.8,0.8c0.9,0.4,1.7,0.8,2.4,1.2c0.7,0.4,1.3,0.9,1.8,1.4c0.5,0.5,0.9,1.1,1.2,1.8c0.3,0.7,0.4,1.5,0.4,2.4
+                      				c0,1.3-0.2,2.3-0.7,3.1c-0.5,0.8-1.1,1.5-1.9,2.1c-0.8,0.5-1.8,0.9-2.8,1.1c-1.1,0.2-2.2,0.3-3.4,0.3c-1.2,0-2.4-0.1-3.5-0.3
+                      				C116.8,65.7,115.8,65.4,115,65z"/>
+                      			<path class="st1" d="M145.7,65.3c-1.1,0.6-2.7,1-4.8,1c-2.5,0-4.4-0.7-6-2.2c-1.5-1.5-2.3-3.4-2.3-5.8c0-2.7,0.8-4.9,2.4-6.4
+                      				c1.6-1.6,3.8-2.4,6.5-2.4c1.9,0,3.3,0.3,4.1,0.8v4.2c-1-0.8-2.2-1.2-3.5-1.2c-1.4,0-2.5,0.4-3.4,1.2s-1.2,2-1.2,3.4
+                      				c0,1.4,0.4,2.5,1.2,3.3c0.8,0.8,1.9,1.2,3.3,1.2c1.2,0,2.4-0.4,3.6-1.2V65.3z"/>
+                      			<path class="st1" d="M159.5,54.3c-0.6-0.3-1.3-0.5-2.1-0.5c-1.1,0-1.9,0.4-2.5,1.2c-0.6,0.8-0.9,1.9-0.9,3.2v7.6h-4.9v-16h4.9v3
+                      				h0.1c0.8-2.2,2.2-3.3,4.2-3.3c0.5,0,0.9,0.1,1.2,0.2V54.3z"/>
+                      			<path class="st1" d="M169.5,66.2c-2.7,0-4.8-0.7-6.3-2.2c-1.5-1.5-2.3-3.5-2.3-6.1c0-2.6,0.8-4.7,2.4-6.2
+                      				c1.6-1.5,3.7-2.2,6.4-2.2c2.7,0,4.7,0.7,6.3,2.2c1.5,1.5,2.3,3.5,2.3,5.9c0,2.7-0.8,4.8-2.3,6.3
+                      				C174.3,65.4,172.2,66.2,169.5,66.2z M169.6,53.2c-1.2,0-2.1,0.4-2.7,1.2c-0.6,0.8-1,1.9-1,3.4c0,3.1,1.2,4.6,3.7,4.6
+                      				c2.4,0,3.5-1.6,3.5-4.7C173.2,54.7,172,53.2,169.6,53.2z"/>
+                      			<path class="st1" d="M186.5,65.8h-4.9V42.1h4.9V65.8z"/>
+                      			<path class="st1" d="M195.7,65.8h-4.9V42.1h4.9V65.8z"/>
+                      			<path class="st1" d="M218.6,65.6c-0.7,0.4-1.8,0.6-3.3,0.6c-3.5,0-5.2-1.8-5.2-5.4v-7.3h-2.6v-3.6h2.6v-3.5L215,45v4.9h3.6v3.6
+                      				H215v6.5c0,1.7,0.7,2.5,2,2.5c0.5,0,1.1-0.2,1.6-0.5V65.6z"/>
+                      			<path class="st1" d="M229,66.2c-2.7,0-4.8-0.7-6.3-2.2c-1.5-1.5-2.3-3.5-2.3-6.1c0-2.6,0.8-4.7,2.4-6.2c1.6-1.5,3.7-2.2,6.4-2.2
+                      				c2.7,0,4.7,0.7,6.3,2.2c1.5,1.5,2.3,3.5,2.3,5.9c0,2.7-0.8,4.8-2.3,6.3C233.9,65.4,231.7,66.2,229,66.2z M229.1,53.2
+                      				c-1.2,0-2.1,0.4-2.7,1.2c-0.6,0.8-1,1.9-1,3.4c0,3.1,1.2,4.6,3.7,4.6c2.4,0,3.5-1.6,3.5-4.7C232.7,54.7,231.5,53.2,229.1,53.2z"
+                      				/>
+                      			<path class="st1" d="M249,65.4v-4c0.8,0.5,1.6,0.9,2.4,1.1c0.8,0.2,1.6,0.4,2.3,0.4c0.9,0,1.6-0.1,2.1-0.4
+                      				c0.5-0.2,0.8-0.6,0.8-1.1c0-0.3-0.1-0.6-0.3-0.8c-0.2-0.2-0.5-0.4-0.9-0.5s-0.8-0.3-1.2-0.4s-0.8-0.3-1.2-0.4
+                      				c-0.6-0.2-1.2-0.5-1.7-0.8c-0.5-0.3-0.9-0.6-1.2-1c-0.3-0.4-0.6-0.8-0.8-1.3c-0.2-0.5-0.3-1-0.3-1.7c0-0.9,0.2-1.7,0.6-2.3
+                      				c0.4-0.6,0.9-1.2,1.6-1.6c0.7-0.4,1.4-0.7,2.2-0.9c0.8-0.2,1.7-0.3,2.6-0.3c0.7,0,1.4,0.1,2.2,0.2s1.4,0.3,2.2,0.5v3.8
+                      				c-0.6-0.4-1.3-0.6-2-0.8c-0.7-0.2-1.4-0.3-2.1-0.3c-0.3,0-0.6,0-0.9,0.1c-0.3,0.1-0.5,0.1-0.8,0.3s-0.4,0.3-0.5,0.4
+                      				s-0.2,0.4-0.2,0.6c0,0.3,0.1,0.5,0.3,0.8c0.2,0.2,0.4,0.4,0.7,0.5c0.3,0.2,0.6,0.3,1,0.4c0.4,0.1,0.7,0.2,1.1,0.4
+                      				c0.7,0.2,1.3,0.5,1.8,0.8c0.5,0.3,1,0.6,1.4,1c0.4,0.4,0.7,0.8,0.9,1.3c0.2,0.5,0.3,1.1,0.3,1.8c0,0.9-0.2,1.8-0.6,2.4
+                      				s-1,1.2-1.6,1.6s-1.5,0.7-2.4,0.9c-0.9,0.2-1.8,0.3-2.8,0.3C252.1,66.2,250.5,65.9,249,65.4z"/>
+                      			<path class="st1" d="M273.9,65.6c-0.7,0.4-1.8,0.6-3.3,0.6c-3.5,0-5.2-1.8-5.2-5.4v-7.3h-2.6v-3.6h2.6v-3.5l4.9-1.4v4.9h3.6v3.6
+                      				h-3.6v6.5c0,1.7,0.7,2.5,2,2.5c0.5,0,1.1-0.2,1.6-0.5V65.6z"/>
+                      			<path class="st1" d="M290.1,65.8h-4.7v-2.3h-0.1c-1.1,1.8-2.7,2.7-4.8,2.7c-1.6,0-2.8-0.4-3.7-1.3c-0.9-0.9-1.3-2.1-1.3-3.5
+                      				c0-3.1,1.8-4.9,5.5-5.4l4.3-0.6c0-1.8-0.9-2.6-2.8-2.6c-1.9,0-3.7,0.6-5.4,1.7v-3.7c0.7-0.4,1.6-0.7,2.8-0.9
+                      				c1.2-0.3,2.3-0.4,3.3-0.4c4.6,0,6.8,2.3,6.8,6.8V65.8z M285.5,59.3v-1.1l-2.9,0.4c-1.6,0.2-2.4,0.9-2.4,2.2c0,0.6,0.2,1,0.6,1.4
+                      				s0.9,0.5,1.6,0.5c0.9,0,1.7-0.3,2.3-1S285.5,60.3,285.5,59.3z"/>
+                      			<path class="st1" d="M304.6,54.3c-0.6-0.3-1.3-0.5-2.1-0.5c-1.1,0-1.9,0.4-2.5,1.2c-0.6,0.8-0.9,1.9-0.9,3.2v7.6h-4.9v-16h4.9v3
+                      				h0.1c0.8-2.2,2.2-3.3,4.2-3.3c0.5,0,0.9,0.1,1.2,0.2V54.3z"/>
+                      			<path class="st1" d="M317.6,65.6c-0.7,0.4-1.8,0.6-3.3,0.6c-3.5,0-5.2-1.8-5.2-5.4v-7.3h-2.6v-3.6h2.6v-3.5L314,45v4.9h3.6v3.6
+                      				H314v6.5c0,1.7,0.7,2.5,2,2.5c0.5,0,1.1-0.2,1.6-0.5V65.6z"/>
+                      		</g>
+                      	</g>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Master Section = Develop -->
+      <section class="section section--develop" id="Develop">
+        <div class="top-angle"></div>
+        <div class="section__intro">
+          <div class="inner">
+            <div class="grid-container with-padding intro-block is-parallaxing is-parallaxing--develop">
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--10 mobile-grid__item--10">
+                <div class="intro-block__header">
+                  <h1>Develop faster</h1>
+                </div>
+                <div class="intro-block__content">
+                  <h2>DevOp services</h2>
+                </div>
+              </div>
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 is-hidden--tablet is-hidden--mobile"></div>
+              <div class="grid__item desktop-grid__item--5 tablet-grid__item--10 mobile-grid__item--10">
+                <img class="intro-block__image" src="img/gif--apps.gif" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section__body">
+          <div class="bridge-container is-parallaxing--develop--bridge">
+            <div class="bridge bridge--1 bridge--1--develop"></div>
+            <div class="bridge bridge--2 bridge--2--develop"></div>
+            <div class="bridge bridge--3 bridge--3--develop"></div>
+            <div class="bridge bridge--4 bridge--4--develop"></div>
+          </div>
+          <div class="inner">
+            <div class="grid-container with-padding" >
+              <div class="grid__item desktop-grid__item--10 tablet-grid__item--10 mobile-grid__item--10">
+                <div class="diagram-developer-container">
+                  <img class="diagram--growth--developer is-animated--develop--1" src="img/diagram--growth--developer.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="grid-container with-padding">
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--10 mobile-grid__item--10">
+                <div class="copy-block is-animated--develop--2">
+                  <h2>Game PaaS services</h2>
+                  <div class="mobile-column-container">
+                    <div class="copy-block__item no-margin--tablet">
+                      <div class="grid-container head">
+                        <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 icon">
+                          <img src="img/icon--body--service-fabrics.svg" alt="">
+                        </div>
+                        <div class="grid__item desktop-grid__item--9 tablet-grid__item--9 mobile-grid__item--9 text">
+                          <p>Azure Service Fabric</p>
+                        </div>
+                      </div>
+                      <div class="copy">
+                        <p>Handle heavy game traffic without breaking a sweat using the high scalability and low latency of Azure Service Fabric. Plus, build games without having to create a separate store or cache.</p>
+                      </div>
+                    </div>
+                    <div class="copy-block__item no-margin--tablet">
+                      <div class="grid-container head">
+                        <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 icon">
+                          <img src="img/icon--body--extended-paas.svg" alt="">
+                        </div>
+                        <div class="grid__item desktop-grid__item--9 tablet-grid__item--9 mobile-grid__item--9 text">
+                          <p>Extended PaaS functionality </p>
+                        </div>
+                      </div>
+                      <div class="copy">
+                        <p>Go beyond the existing Azure PaaS capabilities to implement code triggered by events occurring in other Azure services, Software as a Service (SaaS) products, and on-premises systems.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="copy-block is-hidden--tablet is-hidden--mobile is-animated--develop--3 is-aligned-middle">
+                  <h2>Other PaaS</h2>
+                  <div class="copy-block__item">
+                    <div class="copy">
+                      <p>All PaaS runs great on Azure! Azure supports the leading third-party PaaS framework providers and open source tooling and services.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 is-hidden--tablet is-hidden--mobile"></div>
+              <div class="grid__item desktop-grid__item--5 tablet-grid__item--10 mobile-grid__item--10">
+                <div class="copy-block copy-block--margin-bottom is-animated--develop--5">
+                  <h2>Game data services</h2>
+                  <div class="copy-block__item">
+                    <div class="grid-container head">
+                      <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 icon">
+                        <img src="img/icon--body--blob-storage.svg" alt="">
+                      </div>
+                      <div class="grid__item desktop-grid__item--9 tablet-grid__item--9 mobile-grid__item--9 text">
+                        <p>Azure blob storage</p>
+                      </div>
+                    </div>
+                    <div class="copy">
+                      <p>Get cloud storage for game data, including all files types and unstructured data like images, audio, video, and more.</p>
+                    </div>
+                  </div>
+                  <div class="copy-block__item">
+                    <div class="grid-container head">
+                      <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 icon">
+                        <img src="img/icon--body--cosmos.svg" alt="">
+                      </div>
+                      <div class="grid__item desktop-grid__item--9 tablet-grid__item--9 mobile-grid__item--9 text">
+                        <p>Cosmos DB</p>
+                      </div>
+                    </div>
+                    <div class="copy">
+                      <p>Use this low-latency game database to read, write, and query game and player data faster and with schema flexibility.</p>
+                    </div>
+                  </div>
+                  <div class="copy-block__item">
+                    <div class="grid-container head">
+                      <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 icon">
+                        <img src="img/icon--body--table-storage.svg" alt="">
+                      </div>
+                      <div class="grid__item desktop-grid__item--9 tablet-grid__item--9 mobile-grid__item--9 text">
+                        <p>Azure Table storage</p>
+                      </div>
+                    </div>
+                    <div class="copy">
+                      <p>Store game data flexibly—according to its needs and function. For instance, store game transactions or changes in game states in temporary data storage tables.</p>
+                    </div>
+                  </div>
+                  <div class="copy-block__item">
+                    <div class="grid-container head">
+                      <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 icon">
+                        <img src="img/icon--body--sql.svg" alt="">
+                      </div>
+                      <div class="grid__item desktop-grid__item--9 tablet-grid__item--9 mobile-grid__item--9 text">
+                        <p>Azure SQL Database</p>
+                      </div>
+                    </div>
+                    <div class="copy">
+                      <p>Scale your structured storage of relational data—like in-game transactions.</p>
+                    </div>
+                  </div>
+                  <div class="copy-block__item">
+                    <div class="grid-container head">
+                      <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 icon">
+                        <img src="img/icon--body--data-warehouse.svg" alt="">
+                      </div>
+                      <div class="grid__item desktop-grid__item--9 tablet-grid__item--9 mobile-grid__item--9 text">
+                        <p>Azure Data Warehouse</p>
+                      </div>
+                    </div>
+                    <div class="copy">
+                      <p>Collect and analyze game data on a massive level, processing from both relational and non-relational databases.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-container with-padding with-both-margins">
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 is-animated--develop--6">
+                <h2>Azure batch rendering</h2>
+                <p>Render complex game graphics with the power of the cloud that integrates with your existing tools. Scale to thousands of cores easily – and only pay for what you use.</p>
+              </div>
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 is-hidden--tablet is-hidden--mobile"></div>
+              <div class="grid__item desktop-grid__item--5 tablet-grid__item--5 mobile-grid__item--10 is-flex--center--tablet is-animated--develop--7">
+                <img class="diagram--render--mobile" src="img/diagram--render--azure-batch.svg" alt="">
+              </div>
+            </div>
+            <div class="grid-container with-padding line-container">
+              <div class="grid__item desktop-grid__item--3 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"><div class="line is-animated--develop--8"></div></div>
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--10 mobile-grid__item--10 grid-container is-animated--develop--22">
+                <div class="grid__item desktop-grid__item--10 tablet-grid__item--5 mobile-grid__item--10 is-center-aligned">
+                  <h2>Game development with Visual Studio</h2>
+                  <p>Write and debug your games with Visual Studio and your game engine of choice.</p>
+                </div>
+                <div class="grid__item desktop-grid__item--5 tablet-grid__item--5 mobile-grid__item--10 is-hidden--desktop is-flex--center--tablet">
+                  <img class="diagram--render--mobile" src="img/diagram--render--pay-per.svg" alt="">
+                </div>
+              </div>
+              <div class="grid__item desktop-grid__item--3 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile is-animated--develop--23"><div class="line"></div></div>
+            </div>
+            <div class="grid-container with-padding list-container">
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 is-animated--develop--9">
+                <h2>Build games with the powerful Visual Studio</h2>
+                <ul>
+                  <li><p>Visual Studio Fully integrates with Unity3D, Unreal Engine, and Cocos engines.</p></li>
+                  <li><p>Enhance productivity by leveraging the powerful Visual Studio editing tools.</p></li>
+                  <li><p>Use the world-class Visual Studio debugger to catch issues quickly.</p></li>
+                  <li><p>Connect to Azure services from within Visual Studio.</p></li>
+                </ul>
+              </div>
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 is-hidden--tablet is-hidden--mobile"></div>
+              <div class="grid__item desktop-grid__item--5 tablet-grid__item--5 mobile-grid__item--10 is-animated--develop--10">
+                <img class="diagram--render--mobile" src="img/intro--develop.svg" alt="">
+              </div>
+            </div>
+            <div class="grid-container with-padding line-break line-break--even is-animated--develop--21">
+              <div class="grid__item desktop-grid__item--10 tablet-grid__item--10 mobile-grid__item--10"></div>
+            </div>
+            <div class="grid-container with-padding stacks" >
+              <div class="grid__item desktop-grid__item--5 tablet-grid__item--10 mobile-grid__item--10">
+                <div class="grid-container stacks__item is-animated--develop--11">
+                  <div class="grid__item desktop-grid__item--4 tablet-grid__item--2 mobile-grid__item--10 stacks__diagram">
+                    <img src="img/diagram--develop--unity-creating.svg" alt="">
+                  </div>
+                  <div class="grid__item desktop-grid__item--6 tablet-grid__item--8 mobile-grid__item--10 stacks__copy">
+                    <h2>Creating Unity projects in Visual Studio</h2>
+                    <p>Navigate your Unity project inside Visual Studio by using the Unity Project Explorer.</p>
+                  </div>
+                </div>
+                <div class="grid-container stacks__item is-animated--develop--12">
+                  <div class="grid__item desktop-grid__item--4 tablet-grid__item--2 mobile-grid__item--10 stacks__diagram">
+                    <img class="diagram--develop--unity-mono" src="img/diagram--develop--unity-documentation.svg" alt="">
+                  </div>
+                  <div class="grid__item desktop-grid__item--6 tablet-grid__item--8 mobile-grid__item--10 stacks__copy">
+                    <h2>Unity documentation access</h2>
+                    <p>Access the Unity scripting documentation quickly through Visual Studio—or let Visual Studio do the work finding the API documentation online.</p>
+                  </div>
+                </div>
+                <div class="grid-container stacks__item no-margin--desktop is-animated--develop--13">
+                  <div class="grid__item desktop-grid__item--4 tablet-grid__item--2 mobile-grid__item--10 stacks__diagram">
+                    <img src="img/diagram--develop--unity-mono.svg" alt="">
+                  </div>
+                  <div class="grid__item desktop-grid__item--6 tablet-grid__item--8 mobile-grid__item--10 stacks__copy">
+                    <h2>Debugging</h2>
+                    <p>Debug both editor and game scripts for your Unity projects—whether you’re connecting your Visual Studio tools within your Unity app in a standalone player or debugging platform-specific problems.</p>
+                  </div>
+                </div>
+                <div class="grid-container stacks__item is-hidden--desktop">
+                  <div class="grid__item desktop-grid__item--4 tablet-grid__item--2 mobile-grid__item--10 stacks__diagram">
+                    <img src="img/diagram--develop--debugging.svg" alt="">
+                  </div>
+                  <div class="grid__item desktop-grid__item--6 tablet-grid__item--8 mobile-grid__item--10 stacks__copy">
+                    <h2>DevOps</h2>
+                    <p>Use Visual Studio Team Services to automate and simplify your Azure game backend deployments with templates for CI and CD pipelines.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 is-hidden--tablet is-hidden--mobile"></div>
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--10 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile">
+                <div class="diagram-debugging-container">
+                  <img class="diagram--debugging is-animated--develop--14" src="img/diagram--develop--debugging--outer.svg" alt="">
+                  <img class="diagram--debugging diagram--debugging--inner is-animated--develop--4" src="img/diagram--develop--debugging--inner.svg" alt="">
+                </div>
+                <div class="stacks__copy is-offset--last is-animated--develop--15">
+                  <h2>DevOps</h2>
+                  <p>Use Visual Studio Team Services to automate and simplify your Azure game backend deployments with templates for CI and CD pipelines.</p>
+                </div>
+              </div>
+            </div>
+            <div class="grid-container with-padding has-margin-top">
+              <div class="grid__item desktop-grid__item--10 tablet-grid__item-10 mobile-grid__item--10 is-hidden--desktop">
+                <div class="copy-block is-hidden--desktop">
+                  <h2>Other PaaS</h2>
+                  <div class="copy-block__item copy-block__item--full">
+                    <div class="copy">
+                      <p>All PaaS runs great on Azure! Azure supports the leading third-party PaaS framework providers and open source tooling and services.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-container with-padding line-container line-container--header" >
+              <div class="grid__item desktop-grid__item--3 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"><div class="line is-animated--develop--16"></div></div>
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--10 mobile-grid__item--10 is-animated--develop--24">
+                <h2 class="has-max-width">Learn more about DevOp services</h2>
+              </div>
+              <div class="grid__item desktop-grid__item--3 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"><div class="line is-animated--develop--25"></div></div>
+            </div>
+            <div class="grid-container with-padding cta-container cta-container--first">
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"></div>
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 is-animated--develop--17">
+                <a href="https://www.visualstudio.com/vs/game-development/#tab-4b0d0be8de5f65564ad" target="_blank" class="cta-link">
+                  <button class="default-button" type="button" name="button"><span>Visual Studio</span></button>
+                </a>
+              </div>
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 is-animated--develop--18">
+                <a href="https://azure.microsoft.com/en-us/services/service-fabric/" target="_blank" class="cta-link">
+                  <button class="default-button" type="button" name="button"><span>Service Fabric</span></button>
+                </a>
+              </div>
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"></div>
+            </div>
+            <div class="grid-container with-padding cta-container">
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"></div>
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 is-animated--develop--19">
+                <a href="https://azure.microsoft.com/en-us/services/cosmos-db/" target="_blank" class="cta-link">
+                  <button class="default-button" type="button" name="button"><span>Cosmos DB</span></button>
+                </a>
+              </div>
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 is-animated--develop--20">
+                <a href="https://rendering.azure.com/" target="_blank" class="cta-link">
+                  <button class="default-button" type="button" name="button"><span>Cloud rendering</span></button>
+                </a>
+              </div>
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section = Launch -->
+      <section class="section section--launch" id="Launch">
+        <div class="section__intro">
+          <div class="inner">
+            <div class="grid-container with-padding intro-block is-parallaxing is-parallaxing--launch">
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--10 mobile-grid__item--10 is-aligned--center">
+                <div class="intro-block__header">
+                  <h1>Launch globally</h1>
+                </div>
+                <div class="intro-block__content">
+                  <h2>Mulitplayer services</h2>
+                </div>
+              </div>
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 is-hidden--tablet is-hidden--mobile"></div>
+              <div class="grid__item desktop-grid__item--5 tablet-grid__item--10 mobile-grid__item--10">
+                <img class="intro-block__image" src="img/gif--globe.gif" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section__body">
+          <div class="bridge-container is-parallaxing--launch--bridge">
+            <div class="bridge bridge--1 bridge--1--launch"></div>
+            <div class="bridge bridge--2 bridge--2--launch"></div>
+            <div class="bridge bridge--3 bridge--3--launch"></div>
+            <div class="bridge bridge--4 bridge--4--launch"></div>
+          </div>
+          <div class="inner">
+            <div class="grid-container with-padding line-container line-container--inline">
+              <div class="grid__item desktop-grid__item--5 tablet-grid__item--10 mobile-grid__item--10">
+                <h1 class="has-margins is-animated--launch--1">Reach players globally</h1>
+              </div>
+              <div class="grid__item desktop-grid__item--5 tablet-grid__item--10 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile">
+                <div class="line is-animated--launch--2"></div>
+              </div>
+            </div>
+            <div class="grid-container with-padding" >
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--10 mobile-grid__item--10 is-animated--launch--3">
+                <h2>Geographic coverage</h2>
+                <p><b>Anywhere &amp; anytime -</b> Reap the rewards of an Azure network that continues to grow, with data centers in over 30 regions and that’s available in 140 countries, including China and Germany.</p>
+              </div>
+              <div class="grid__item desktop-grid__item--6 tablet-grid__item--4 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"></div>
+            </div>
+            <div class="grid-container with-padding" >
+              <div class="grid__item desktop-grid__item--7 tablet-grid__item--10 mobile-grid__item--10">
+                <img class="diagram--map is-animated--launch--4" src="img/diagram--reach--map.svg" alt="">
+              </div>
+              <div class="grid__item desktop-grid__item--3 tablet-grid__item--10 mobile-grid__item--10 is-aligned-top">
+                <div class="body-block has-margin-bottom">
+                  <div class="is-animated--launch--5">
+                    <h2>Global traffic manager</h2>
+                    <p>By directing traffic through our closest data center, improve performance for multi-player scenarios, transmitting media files (such as audio, video, images), and more. </p>
+                  </div>
+                  <img class="diagram--traffic is-animated--launch--6" src="img/diagram--reach--traffic.svg" alt="">
+                </div>
+                <div class="body-block is-animated--launch--7">
+                  <h2>Multi-Content Delivery Network (CDN)</h2>
+                  <p>Using a broader geographic footprint, provide active redundancy and failover support—and a reliable multi-content delivery network.</p>
+                </div>
+              </div>
+            </div>
+            <div class="grid-container with-padding line-container line-container--inline">
+              <div class="grid__item desktop-grid__item--8 tablet-grid__item--10 mobile-grid__item--10">
+                <h1 class="has-margins has-large-margin-top is-animated--launch--8">Handle fast growth and play spikes</h1>
+              </div>
+              <div class="grid__item desktop-grid__item--2 tablet-grid__item--10 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile">
+                <div class="line is-animated--launch--9"></div>
+              </div>
+            </div>
+            <div class="grid-container with-padding" >
+              <div class="grid__item desktop-grid__item--10 tablet-grid__item--10 mobile-grid__item--10">
+                <h2 class="has-margin is-animated--launch--10">Game Compute (Iaas)</h2>
+                <div class="copy-block grid-container">
+                  <div class="copy-block__item grid__item modified-grid__item is-animated--launch--11">
+                    <div class="header-image">
+                      <img src="img/diagram--growth--virtual-machines.svg" alt="">
+                    </div>
+                    <div class="grid-container head head--fixed">
+                      <div class="grid__item desktop-grid__item--2 tablet-grid__item--1 mobile-grid__item--1 icon">
+                        <img src="img/icon--body--virtual-machines.svg" alt="">
+                      </div>
+                      <div class="grid__item desktop-grid__item--8 tablet-grid__item--9 mobile-grid__item--9 text">
+                        <p>Virtual machines (VMs) with Windows and Linux OS images</p>
+                      </div>
+                    </div>
+                    <div class="copy">
+                      <p>Scale anywhere from one to thousands of VMs with built-in virtual networking and load balancing, while taking advantage of hybrid consistency with on-premises systems.</p>
+                    </div>
+                  </div>
+                  <div class="copy-block__item grid__item modified-grid__item is-animated--launch--12">
+                    <div class="header-image">
+                      <img src="img/diagram--growth--container-services.svg" alt="">
+                    </div>
+                    <div class="grid-container head head--fixed">
+                      <div class="grid__item desktop-grid__item--2 tablet-grid__item--1 mobile-grid__item--1 icon">
+                        <img src="img/icon--body--container-services.svg" alt="">
+                      </div>
+                      <div class="grid__item desktop-grid__item--8 tablet-grid__item--9 mobile-grid__item--9 text">
+                        <p>Container services</p>
+                      </div>
+                    </div>
+                    <div class="copy">
+                      <p>Deploy and manage containers using the tools you choose. Quicker deployment time. Efficient load balancing. Deploy across multiple environments. Use popular open-source tooling</p>
+                    </div>
+                  </div>
+                  <div class="copy-block__item grid__item modified-grid__item is-animated--launch--13">
+                    <div class="header-image">
+                      <img src="img/diagram--growth--scale-sets.svg" alt="">
+                    </div>
+                    <div class="grid-container head head--fixed">
+                      <div class="grid__item desktop-grid__item--2 tablet-grid__item--1 mobile-grid__item--1 icon">
+                        <img src="img/icon--body--scale-sets.svg" alt="">
+                      </div>
+                      <div class="grid__item desktop-grid__item--8 tablet-grid__item--9 mobile-grid__item--9 text">
+                        <p>VM scaleSets</p>
+                      </div>
+                    </div>
+                    <div class="copy">
+                      <p>Use this Azure Compute resource to deploy and manage VMs as a set. These sets help you build on a larger scale and target big compute, big data, and containerized workloads—that are all more critical as cloud computing continues to evolve.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-container with-padding line-container line-container--header" >
+              <div class="grid__item desktop-grid__item--3 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"><div class="line is-animated--launch--14"></div></div>
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--10 mobile-grid__item--10 is-animated--launch--17">
+                <h2 class="has-max-width">Learn more about Multiplayer services</h2>
+              </div>
+              <div class="grid__item desktop-grid__item--3 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"><div class="line is-animated--launch--18"></div></div>
+            </div>
+            <div class="grid-container with-padding cta-container cta-container--only">
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"></div>
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 is-animated--launch--15">
+                <a href="https://azure.microsoft.com/en-us/regions/" target="_blank" class="cta-link cta-link--2">
+                  <button class="default-button" type="button" name="button"><span>Azure datacenters</span></button>
+                </a>
+              </div>
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 is-animated--launch--16">
+                <a href="https://azure.microsoft.com/en-us/services/virtual-machine-scalesets/" target="_blank" class="cta-link cta-link--2">
+                  <button class="default-button" type="button" name="button"><span>Virtual Machine Scale Sets</span></button>
+                </a>
+              </div>
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section = Monetize -->
+      <section class="section section--monetize" id="Monetize">
+        <div class="section__intro">
+          <div class="inner">
+            <div class="grid-container with-padding intro-block is-parallaxing is-parallaxing--monetize">
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--10 mobile-grid__item--10">
+                <div class="intro-block__header">
+                  <h1>Monetize intelligently</h1>
+                </div>
+                <div class="intro-block__content">
+                  <h2>LiveOps services</h2>
+                </div>
+              </div>
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 is-hidden--tablet is-hidden--mobile"></div>
+              <div class="grid__item desktop-grid__item--5 tablet-grid__item--10 mobile-grid__item--10">
+                <img class="intro-block__image" src="img/gif--containers.gif" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section__body">
+          <div class="bridge-container is-parallaxing--monetize--bridge">
+            <div class="bridge bridge--1 bridge--1--monetize"></div>
+            <div class="bridge bridge--2 bridge--2--monetize"></div>
+            <div class="bridge bridge--3 bridge--3--monetize"></div>
+            <div class="bridge bridge--4 bridge--4--monetize"></div>
+          </div>
+          <div class="inner">
+            <div class="grid-container with-padding stacks" >
+              <div class="grid__item desktop-grid__item--5 tablet-grid__item--10 mobile-grid__item--10">
+                <h2 class="margin is-animated--monetize--1">Analyze player behavior</h2>
+                <div class="grid-container stacks__item is-animated--monetize--2">
+                  <div class="grid__item desktop-grid__item--5 tablet-grid__item--4 mobile-grid__item--10 stacks__diagram">
+                    <img src="img/diagram--monetize--event-hubs.svg" alt="">
+                  </div>
+                  <div class="grid__item desktop-grid__item--5 tablet-grid__item--6 mobile-grid__item--10 stacks__copy">
+                    <div class="copy-block__item">
+                      <div class="grid-container head">
+                        <div class="grid__item desktop-grid__item--2 tablet-grid__item-2 mobile-grid__item--1 icon">
+                          <img src="img/icon--body--event-hubs.svg" alt="">
+                        </div>
+                        <div class="grid__item desktop-grid__item--8 tablet-grid__item-8 mobile-grid__item--9 text">
+                          <p>Azure Event Hubs</p>
+                        </div>
+                      </div>
+                      <div class="copy">
+                        <p>Collect millions of events per second from games, websites, apps, and devices using cloud-scale telemetry.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-container stacks__item is-animated--monetize--3">
+                  <div class="grid__item desktop-grid__item--5 tablet-grid__item--4 mobile-grid__item--10 stacks__diagram">
+                    <img src="img/diagram--monetize--stream-analytics.svg" alt="">
+                  </div>
+                  <div class="grid__item desktop-grid__item--5 tablet-grid__item--6 mobile-grid__item--10 stacks__copy">
+                    <div class="copy-block__item">
+                      <div class="grid-container head">
+                        <div class="grid__item desktop-grid__item--2 tablet-grid__item-2 mobile-grid__item--1 icon">
+                          <img src="img/icon--body--stream-analytics.svg" alt="">
+                        </div>
+                        <div class="grid__item desktop-grid__item--8 tablet-grid__item-8 mobile-grid__item--9 text">
+                          <p>Stream Analytics</p>
+                        </div>
+                      </div>
+                      <div class="copy">
+                        <p>Improve gameplay by performing real-time analysis of gamer data.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-container stacks__item is-animated--monetize--4">
+                  <div class="grid__item desktop-grid__item--5 tablet-grid__item--4 mobile-grid__item--10 stacks__diagram">
+                    <img src="img/diagram--monetize--machine-learning.svg" alt="">
+                  </div>
+                  <div class="grid__item desktop-grid__item--5 tablet-grid__item--6 mobile-grid__item--10 stacks__copy">
+                    <div class="copy-block__item">
+                      <div class="grid-container head">
+                        <div class="grid__item desktop-grid__item--2 tablet-grid__item-2 mobile-grid__item--1 icon">
+                          <img src="img/icon--body--machine-learning.svg" alt="">
+                        </div>
+                        <div class="grid__item desktop-grid__item--8 tablet-grid__item-8 mobile-grid__item--9 text">
+                          <p>Azure Machine Learning</p>
+                        </div>
+                      </div>
+                      <div class="copy">
+                        <p>Use this predictive analytics solution to leverage gamer data to help customize dynamic gameplay.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 is-hidden--tablet is-hidden--mobile"></div>
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--10 mobile-grid__item--10">
+                <h2 class="margin--small is-animated--monetize--5">Make intelligent decisions</h2>
+                <img class="diagram--monetize is-animated--monetize--6" src="img/diagram--monetize--predict.svg" alt="">
+                <img class="diagram--monetize is-animated--monetize--7" src="img/diagram--monetize--game.svg" alt="">
+              </div>
+            </div>
+            <div class="grid-container with-padding">
+              <div class="grid__item desktop-grid__item--10 tablet-grid__item--10 mobile-grid__item--10">
+                <div class="line-break is-animated--monetize--8"></div>
+              </div>
+            </div>
+            <div class="grid-container with-padding mixer">
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--4 mobile-grid__item--10 is-animated--monetize--9">
+                <h2>Engage users with Mixer</h2>
+                <p>The next generation of live game streaming. Faster than light technology less than one second of latency. Be part of the game – interactivity. Effortless streaming – anytime anywhere. In it together diverse community engaging together.</p>
+              </div>
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 is-hidden--mobile"></div>
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 is-animated--monetize--10">
+                <img src="img/diagram--monetize--mixer.svg" alt="">
+              </div>
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--1 is-hidden--tablet is-hidden--mobile"></div>
+            </div>
+            <div class="grid-container with-padding line-container line-container--header">
+              <div class="grid__item desktop-grid__item--3 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"><div class="line is-animated--monetize--11"></div></div>
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--10 mobile-grid__item--10 is-animated--monetize--14">
+                <h2 class="has-max-width">Learn more about LiveOps services</h2>
+              </div>
+              <div class="grid__item desktop-grid__item--3 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"><div class="line is-animated--monetize--15"></div></div>
+            </div>
+            <div class="grid-container with-padding cta-container cta-container--only">
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"></div>
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 is-animated--monetize--12">
+                <a href="https://azure.microsoft.com/en-us/suites/cortana-intelligence/" target="_blank" class="cta-link cta-link--2">
+                  <button class="default-button" type="button" name="button"><span>Cortana Intelligence</span></button>
+                </a>
+              </div>
+              <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 is-animated--monetize--13">
+                <a href="https://mixer.com" target="_blank" class="cta-link cta-link--2">
+                  <button class="default-button" type="button" name="button"><span>Mixer</span></button>
+                </a>
+              </div>
+              <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"></div>
+            </div>
+          </div>
+        </div>
+        <div class="top-angle-monetize"></div>
+      </section>
+      <!-- Section = Resources -->
+      <section class="section section--resources" id="Resources">
+        <div class="section__intro">
+          <div class="resources-footer">
+            <div class="inner">
+              <div class="is-parallaxing--resources resources-container">
+                <div class="grid-container with-padding line-container line-container--header">
+                  <div class="grid__item desktop-grid__item--3 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"><div class="line"></div></div>
+                  <div class="grid__item desktop-grid__item--4 tablet-grid__item--10 mobile-grid__item--10">
+                    <h2 class="has-max-width">Resources</h2>
+                    <p>Learn more about Azure Cloud Gaming</p>
+                  </div>
+                  <div class="grid__item desktop-grid__item--3 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"><div class="line"></div></div>
+                </div>
+                <div class="grid-container with-padding">
+                  <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"></div>
+                  <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 resource-item">
+                    <a class="resource-link" href="https://azure.microsoft.com/en-us/solutions/gaming/" target="_blank">
+                      <button class="default-button default-button--resource" type="button" name="button"><span>Azure gaming</span></button>
+                    </a>
+                  </div>
+                  <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 resource-item">
+                    <a class="resource-link" href="https://azure.microsoft.com/en-us/support/legal/sla/" target="_blank">
+                      <button class="default-button default-button--resource" type="button" name="button"><span>Service level agreements</span></button>
+                    </a>
+                  </div>
+                  <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"></div>
+                </div>
+                <div class="grid-container with-padding">
+                  <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"></div>
+                  <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 resource-item">
+                    <a class="resource-link" href="https://azure.microsoft.com/en-us/overview/choose-azure-opensource/" target="_blank">
+                      <button class="default-button default-button--resource" type="button" name="button"><span>Open Source tools</span></button>
+                    </a>
+                  </div>
+                  <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 resource-item">
+                    <a class="resource-link" href="https://azure.microsoft.com/en-us/services/machine-learning/" target="_blank">
+                      <button class="default-button default-button--resource" type="button" name="button"><span>Machine learning</span></button>
+                    </a>
+                  </div>
+                  <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"></div>
+                </div>
+                <div class="grid-container with-padding">
+                  <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"></div>
+                  <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 resource-item">
+                    <a class="resource-link" href="https://azure.microsoft.com/en-us/services/hdinsight/" target="_blank">
+                      <button class="default-button default-button--resource" type="button" name="button"><span>HDInsight</span></button>
+                    </a>
+                  </div>
+                  <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 resource-item">
+                    <a class="resource-link" href="http://customers.microsoft.com/en-us/story/next-games" target="_blank">
+                      <button class="default-button default-button--resource" type="button" name="button"><span>The Walking Dead No Man's Land</span></button>
+                    </a>
+                  </div>
+                  <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"></div>
+                </div>
+                <div class="grid-container with-padding">
+                  <div class="grid__item desktop-grid__item--1 tablet-grid__item--1 mobile-grid__item--10 is-hidden--tablet is-hidden--mobile"></div>
+                  <div class="grid__item desktop-grid__item--4 tablet-grid__item--5 mobile-grid__item--10 resource-item">
+                    <a class="resource-link" href="http://customers.microsoft.com/en-us/story/io-interactive" target="_blank">
+                      <button class="default-button default-button--resource" type="button" name="button"><span>Hitman</span></button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-footer">
+              <div class="inner">
+                <a href="https://www.microsoft.com" target="_target">
+                  <img src="img/logo--microsoft--dark.svg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Scripts -->
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/vendor/scrollspy.min.js"></script>
+    <script src="js/vendor/TweenMax.min.js"></script>
+    <script src="js/vendor/DrawSVGPlugin.min.js"></script>
+    <script src="js/vendor/MorphSVGPlugin.min.js"></script>
+    <script src="js/vendor/ScrollMagic.min.js"></script>
+    <script src="js/vendor/ScrollToPlugin.min.js"></script>
+    <script src="js/vendor/animation.gsap.min.js"></script>
+    <script src="js/vendor/debug.addIndicators.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/reveal-animations.js"></script>
+  </body>
+</html>
