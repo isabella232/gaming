@@ -56,4 +56,4 @@ topics is recommended:
 <span id="_Unity_3D" class="anchor"></span>
 
 <br><br>
-[NEXT >](/docs/install_page2.md)
+[NEXT: Set up Azure Functions >](/docs/02_Set_up_Azure_Functions.md)

@@ -763,6 +763,6 @@ instance ID. Your response should look similar to the following:
 ![](/media/image66.png)
 
 <br><br>
-[PREV <](/docs/install_page1.md)
+[PREV: Introduction <](/docs/01_Introduction.md)
 
-[NEXT >](/docs/install_page3.md)
+[NEXT: Set up containers >](/docs/03_Set_up_containers.md)
