@@ -197,6 +197,6 @@ trial with \$200 in credit by visiting
 [azure.com/free](https://indigoslate.sharepoint.com/sites/pwa/VR%20Game%20Development%20%20Launch%20%5bAzure%20Gaming%5d/Shared%20Documents/Working/GitHub%20step%20by%20step/azure.com/free).
 
 <br><br>
-[PREV: Set up containers <](/docs/03_Set_up_containers.md)
+[PREV: Set up containers](/docs/03_Set_up_containers.md)
 
-[NEXT: Appendix >](/docs/05_Appendix.md)
+[NEXT: Appendix](/docs/05_Appendix.md)

@@ -425,6 +425,6 @@ Here is the screen shot after it is done.
 ![](/media/image106.png)
 
 <br><br>
-[PREV: Set up Azure Functions <](/docs/02_Set_up_Azure_Functions.md)
+[PREV: Set up Azure Functions](/docs/02_Set_up_Azure_Functions.md)
 
-[NEXT: Unity >](/docs/04_Unity.md)
+[NEXT: Unity](/docs/04_Unity.md)
